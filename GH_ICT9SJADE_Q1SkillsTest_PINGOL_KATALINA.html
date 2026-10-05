@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>OBMC Robotics Club</title>
+    <link rel="stylesheet" href="styles_Q1SkillsTest.css">
+</head>
+
+<head>
+    <title>OBMC Robotics Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .main {
+            display: flex;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .form-box, .info-box {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+        }
+
+        .info-box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .robot {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .robot img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        
+        input[type="text"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        .button {
+            padding: 10px 15px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .quote {
+            margin-top: auto;
+            text-align: right;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main">
+
+    
+    <div class="form-box">
+
+        <h1>🤖 OBMC Robotics Club</h1>
+        <h2>Application Form</h2>
+
+        <p>
+            Welcome! Please fill out this form to apply for the <b>Robotics Club.</b>
+        </p>
+
+        <hr>
+
+        <form>
+            <label><b>Full Name:</b></label><br>
+            <input type="text" name="name"><br><br>
+
+            <label><b>Email:</b></label><br>
+            <input type="email" name="email"><br><br>
+
+            <label><b>Grade Level:</b></label><br>
+            <select>
+                <option>Grade 7</option>
+                <option>Grade 8</option>
+                <option>Grade 9</option>
+                <option>Grade 10</option>
+                <option>Grade 11</option>
+                <option>Grade 12</option>
+            </select><br><br>
+
+            <b>Gender:</b><br>
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label><br><br>
+
+            <b>What are you most interested in?</b><br>
+            <label><input type="checkbox"> Coding</label>
+            <label><input type="checkbox"> Design</label>
+            <label><input type="checkbox"> Electronics</label><br><br>
+
+            <label><b>Tell us why you want to join:</b></label><br>
+            <textarea rows="4"></textarea><br><br>
+
+            <input class="button" type="submit" value="Submit Application">
+        </form>
+
+    </div>
+
+    
+    <div class="info-box">
+
+        <h2>Top Robotics Activities</h2>
+
+        <ul>
+            <li>Line Following Robots</li>
+            <li>Obstacle Avoidance</li>
+            <li>Robot Design</li>
+            <li>Programming Challenges</li>
+            <li>Robotics Competitions</li>
+        </ul>
+
+        
+        <div class="robot">
+            <img src="https://i.pinimg.com/736x/fb/5f/b5/fb5fb578c122e3974b0266d49b0243ff.jpg" alt="Robotics Robot">
+        </div>
+
+        <hr>
+
+        <h2>Helpful Links</h2>
+
+        
+        <a href="https://www.automate.org/robotics">Robotics news</a><br><br>
+        <a href="https://www.robotshop.com/?srsltid=AU7gw4UDCx6znlCGLoJGK9CtzudVGzIdkQPg27c2puybYI9K4jjmgrMj">Buy materials here!</a>
+
+        <p class="quote">
+            <i>"Build your curiousity!"</i>
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
